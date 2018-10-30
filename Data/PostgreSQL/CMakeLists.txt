@@ -27,6 +27,6 @@ target_include_directories(DataPostgreSQL
 POCO_INSTALL(DataPostgreSQL)
 POCO_GENERATE_PACKAGE(DataPostgreSQL)
 
-if (ENABLE_TESTS)
+if (POCO_ENABLE_TESTS)
     add_subdirectory(testsuite)
 endif ()
